@@ -61,7 +61,7 @@ namespace CefSharp.MinimalExample.Wpf.ViewModels
         {
             if (e.PropertyName == "Title")
             {
-                Application.Current.MainWindow.Title = "CefSharp.MinimalExample.Wpf - " + Title;
+                //Application.Current.MainWindow.Title = "CefSharp.MinimalExample.Wpf - " + Title;
             }
         }
     }
